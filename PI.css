@@ -62,13 +62,13 @@ table {
 .header img{
     width: 263px;
 }
-.surat{
+.PI{
 	width: auto;
 	height: max-content;
 	padding: 50px;
 	
 }
-.surat h1{
+.PI h1{
 	font-family: Sora;
 	font-style: normal;
 	font-weight: bold;
@@ -80,7 +80,7 @@ table {
 
 	color: #1C418C;
 }
-.surat p{
+.PI p{
 	font-family: Sora;
 	font-style: normal;
 	font-size: 25px;
@@ -145,42 +145,34 @@ table {
     *zoom: 1;
 }
 
-.suratPI{
+.PI permohonan{
 position: absolute;
-width: 322px;
-height: 274px;
-left: 382px;
-top: 302px;
+width: 1029px;
+height: 65px;
+left: 384px;
+top: 509px;
 }
 
-.surataktif {
+.PI tugas{
 position: absolute;
-width: 322px;
-height: 274px;
-left: 731px;
-top: 302px;
+width: 1029px;
+height: 65px;
+left: 384px;
+top: 592px;
 }
 
-.suratbaik {
+.PI kelulusan{
 position: absolute;
-width: 322px;
-height: 274px;
-left: 1080px;
-top: 302px;
+width: 1029px;
+height: 65px;
+left: 384px;
+top: 675px;
 }
 
-.suratbeasiswa {
+.PI terimakasih{
 position: absolute;
-width: 322px;
-height: 274px;
-left: 382px;
-top: 607px;
-}
-
-.suratpengantar {
-position: absolute;
-width: 322px;
-height: 274px;
-left: 731px;
-top: 607px;
+width: 1029px;
+height: 65px;
+left: 384px;
+top: 758px;
 }
