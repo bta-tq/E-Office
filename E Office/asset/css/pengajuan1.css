@@ -62,31 +62,165 @@ table {
 .header img{
     width: 263px;
 }
-
-.konten h1{
+.konten{
+	padding: 20px;
+}
+.konten .tulisan h1{
     font-family: Sora;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 100px;
     color: #1C418C;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.konten table{
-    width: 1024px;
-    height: 559px;
+.konten h2{
+	font-family: Sora;
+    font-style: normal;
+    
+    font-size: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+    color: #1C418C;
+}
+.konten a img{
+	width: 50px;
+	margin-left: 38px;
+	margin-bottom: 20px;
+}
+.konten .diajukan{
+	width: 200px;
+	height: 125px;
+	background: #FFFFFF;
+	backdrop-filter: blur(4px);
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 38px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	color: #1C418C;
+	float: left;
+	border: 1px solid black;
+    box-sizing: border-box;
+}
+.konten .diajukan p{
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #99CCFF;
+}
+.konten .ditolak{
+	width: 200px;
+	height: 125px;
+	background: #FFFFFF;
+	backdrop-filter: blur(4px);
+	padding: 10px;
+	margin-right: 20px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	color: #1C418C;
+	float: left;
+	border: 1px solid black;
+    box-sizing: border-box;
+}
+.konten .ditolak p{
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #99CCFF;
+}
+.konten .diproses{
+	width: 200px;
+	height: 125px;
+	background: #FFFFFF;
+	backdrop-filter: blur(4px);
+	padding: 10px;
+	margin-right: 20px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	color: #1C418C;
+	float: left;
+	border: 1px solid black;
+    box-sizing: border-box;
+}
+.konten .diproses p{
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #99CCFF;
+}
+.konten .selesai{
+	width: 200px;
+	height: 125px;
+	background: #FFFFFF;
+	backdrop-filter: blur(4px);
+	padding: 10px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	color: #1C418C;
+	float: left;
+	border: 1px solid black;
+    box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.konten .selesai p{
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #99CCFF;
+}
+.konten .tabel table{
+    width: 898px;
+    height: 50px;
     text-align: center;
     background: #FFFFFF;
     border: 1px solid rgba(196, 196, 196, 0.58);
     box-sizing: border-box;
-    padding-top: 80px;
+    padding-top: 50px;
+	margin-left: 100px;
 }
-th{
+table tr th{
+	font-weight: bold;
     background-color: #E5E5E5;
+	font-family: sora;
+	padding: 10px;
 }
-td, td{
-    padding: 8px;
+tr, td{
+    padding: 15px;
+	font-family: sora;
+}
+td a{
+	text-decoration: none;
+	text-align: left;
+	color: #5A98BF;
 }
 
 .menu{
